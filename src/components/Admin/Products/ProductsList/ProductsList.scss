@@ -1,0 +1,22 @@
+.products-list {
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+  
+      > button {
+        margin-right: 20px;
+      }
+    }
+  
+    &__content {
+      background-color: #fff;
+      padding: 10px 20px;
+  
+      .ant-list-item-meta {
+        display: flex;
+      }
+    }
+  }
+  
